@@ -11,7 +11,7 @@ CREATE TABLE [dbo].[Movies](
 	[Year] [smallint] NOT NULL,
 	[Plot] [nvarchar](max) NOT NULL,
 	[ImdbRating] [float] NULL,
-	[TicketPrice] [money] NOT NULL,
+	[TicketPrice] [money] NULL,
 	[IsShowing] [bit] NOT NULL,
 	[LastUpdated] [datetime] NULL,
  CONSTRAINT [PK_Movie] PRIMARY KEY CLUSTERED 
